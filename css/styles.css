@@ -865,10 +865,11 @@ input {
     justify-content: center;
     fill: transparent;
     
+    margin-right: 8px;
     cursor: pointer;
 }
 
-.visually-hidden:checked + .custom-checkbox {
+.visually-hidden:checked + .modal-agreement .custom-checkbox {
     background-color: #404BBF;
     border: none;
     fill: #f4f4fd;
